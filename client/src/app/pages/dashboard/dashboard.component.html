@@ -1,0 +1,27 @@
+<div class="dashboard">
+
+  <h1>Dashboard</h1>
+
+  @if (auth.user(); as user) {
+
+    <h2>
+      Welcome {{ user.name }}
+    </h2>
+
+    <p>
+      Email: {{ user.email }}
+    </p>
+
+    <p>
+      Verified: {{ user.isVerified }}
+    </p>
+
+  }
+
+  <button
+    (click)="logout()"
+  >
+    Logout
+  </button>
+
+</div>
