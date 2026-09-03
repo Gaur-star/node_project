@@ -7,9 +7,9 @@ const Razorpay = require('razorpay');
 // access any resource from razorpay
 const razorpayInstance = new Razorpay({
 
-    key_id: rzp_test_fiIwmRET6CApc2,     // Replace with your key_id
+    key_id: rzp_test_fiIwmRET6CApc2,     // your key_id
 
-    key_secret: YAEUthsup8SijNs3iveeVlL1    // Replace with your key_secret
+    key_secret: YAEUthsup8SijNs3iveeVlL1    // your key_secret
 });
 
 const app = express();
