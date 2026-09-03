@@ -6,116 +6,85 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  const [darkMode, setDarkMode] = useState(false);
 
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
 
-      <div className="ticks"></div>
+    // Login form starts
 
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
+    <div
+      className={`min-h-screen flex items-center justify-center ${
+        darkMode ? "dark bg-gray-900" : "bg-gray-100"
+      }`}
+    >
+      <div className="w-96 bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg">        
 
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
+        <h1 className="text-2xl font-bold text-center mb-6 text-gray-800 dark:text-white">
+          Login
+        </h1>
+
+        <form>
+          {/* Email */}
+          <div className="mb-4">
+            <label className="block text-gray-700 dark:text-gray-200 mb-2">
+              Email
+            </label>
+
+            <input
+              type="email"
+              placeholder="Enter your email"
+              className="w-full border border-gray-300 dark:border-gray-600
+                         bg-white dark:bg-gray-700
+                         text-gray-900 dark:text-white
+                         rounded-md px-3 py-2
+                         focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+          </div>
+
+          {/* Password */}
+          <div className="mb-6">
+            <label className="block text-gray-700 dark:text-gray-200 mb-2">
+              Password
+            </label>
+
+            <input
+              type="password"
+              placeholder="Enter your password"
+              className="w-full border border-gray-300 dark:border-gray-600
+                         bg-white dark:bg-gray-700
+                         text-gray-900 dark:text-white
+                         rounded-md px-3 py-2
+                         focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+          </div>
+
+          {/* Login */}
+          <button
+            type="submit"
+            className="w-full bg-blue-500 hover:bg-blue-600
+                       text-white py-2 rounded-md"
+          >
+            Login
+          </button>
+        </form>
+
+      </div>
+      {/* Theme Button */}
+        {/* <div className="flex justify-end mb-4"> */}
+          <button
+            onClick={() => setDarkMode(!darkMode)}
+            className="fixed bottom-4 right-4 px-4 py-3 rounded-full
+             bg-gray-200 dark:bg-gray-700
+             text-gray-800 dark:text-white
+             shadow-lg hover:scale-105 transition"
+          >
+            {darkMode ? "☀️ Light" : "🌙 Dark"}
+          </button>
+        {/* </div> */}
+    </div>
+    
+    // Login form ends
+
   )
 }
 
