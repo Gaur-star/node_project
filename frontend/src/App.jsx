@@ -7,6 +7,39 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
   const [darkMode, setDarkMode] = useState(false);
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+
+    const handleLogin = async (e) => {
+    e.preventDefault();
+
+    try {
+      const response = await fetch("http://localhost:5000/api/login", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          email,
+          password,
+        }),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        alert(data.message);
+        return;
+      }
+
+      console.log("Login successful:", data);
+      alert("Login successful!");
+    } catch (error) {
+      console.error("Login error:", error);
+      alert("Something went wrong");
+    }
+  };
 
   return (
 
@@ -33,6 +66,8 @@ function App() {
             <input
               type="email"
               placeholder="Enter your email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
               className="w-full border border-gray-300 dark:border-gray-600
                          bg-white dark:bg-gray-700
                          text-gray-900 dark:text-white
@@ -50,6 +85,8 @@ function App() {
             <input
               type="password"
               placeholder="Enter your password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
               className="w-full border border-gray-300 dark:border-gray-600
                          bg-white dark:bg-gray-700
                          text-gray-900 dark:text-white
