@@ -41,6 +41,18 @@ function App() {
     }
   };
 
+  const HandleEvent = eventHandle();
+
+  async function eventHandle(e){
+      e.preventDefault();
+
+      try {
+        
+      } catch (error) {
+        
+      }
+  }
+
   return (
 
     // Login form starts
@@ -56,7 +68,7 @@ function App() {
           Login
         </h1>
 
-        <form>
+        <form onSubmit={handleLogin} >
           {/* Email */}
           <div className="mb-4">
             <label className="block text-gray-700 dark:text-gray-200 mb-2">
