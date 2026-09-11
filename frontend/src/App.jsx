@@ -1,155 +1,18 @@
-
-import React from "react";
-import { useState } from 'react'
-import './App.css'
-import axios from 'axios';
-
 import Login from './pages/login'; 
-// import Home from "Components/home";
-import { BrowserRoutes, Routes, Route} from 'react-router-dom';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
 
-function App() {
+function App() {    
 
-  // const [count, setCount] = useState(0)
-  // const [darkMode, setDarkMode] = useState(false);
-  // const [email, setEmail] = useState("");
-  // const [password, setPassword] = useState("");
-
-
-    // const handleLogin = async (e) => {
-    // e.preventDefault();
-
-    // try {
-    //   const response = await fetch("http://localhost:5000/api/login", {
-    //     method: "POST",
-    //     headers: {
-    //       "Content-Type": "application/json",
-    //     },
-    //     body: JSON.stringify({
-    //       email,
-    //       password,
-    //     }),
-    //   });
-
-      // const data = await response.json();
-
-      // if (!response.ok) {
-      //   alert(data.message);
-      //   return;
-      // }
-
-  //     console.log("Login successful:", data);
-  //     alert("Login successful!");
-  //   } catch (error) {
-  //     console.error("Login error:", error);
-  //     alert("Something went wrong");
-  //   }
-  // };
-
-  // const HandleEvent = eventHandle();
-
-  // async function eventHandle(e){
-  //     e.preventDefault();
-
-  //     try {
-        
-  //     } catch (error) {
-        
-  //     }
-  // }
-
-  return (
-
-    // // Login form starts
-
-    // <div
-    //   className={`min-h-screen flex items-center justify-center ${
-    //     darkMode ? "dark bg-gray-900" : "bg-gray-100"
-    //   }`}
-    // >
-    //   <div className="w-96 bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg">        
-
-    //     <h1 className="text-2xl font-bold text-center mb-6 text-gray-800 dark:text-white">
-    //       Login
-    //     </h1>
-
-    //     <form onSubmit={handleLogin} >
-    //       {/* Email */}
-    //       <div className="mb-4">
-    //         <label className="block text-gray-700 dark:text-gray-200 mb-2">
-    //           Email
-    //         </label>
-
-    //         <input
-    //           type="email"
-    //           placeholder="Enter your email"
-    //           value={email}
-    //           onChange={(e) => setEmail(e.target.value)}
-    //           className="w-full border border-gray-300 dark:border-gray-600
-    //                      bg-white dark:bg-gray-700
-    //                      text-gray-900 dark:text-white
-    //                      rounded-md px-3 py-2
-    //                      focus:outline-none focus:ring-2 focus:ring-blue-500"
-    //         />
-    //       </div>
-
-    //       {/* Password */}
-    //       <div className="mb-6">
-    //         <label className="block text-gray-700 dark:text-gray-200 mb-2">
-    //           Password
-    //         </label>
-
-    //         <input
-    //           type="password"
-    //           placeholder="Enter your password"
-    //           value={password}
-    //           onChange={(e) => setPassword(e.target.value)}
-    //           className="w-full border border-gray-300 dark:border-gray-600
-    //                      bg-white dark:bg-gray-700
-    //                      text-gray-900 dark:text-white
-    //                      rounded-md px-3 py-2
-    //                      focus:outline-none focus:ring-2 focus:ring-blue-500"
-    //         />
-    //       </div>
-
-    //       {/* Login */}
-    //       <button
-    //         type="submit"
-    //         className="w-full bg-blue-500 hover:bg-blue-600
-    //                    text-white py-2 rounded-md"
-    //       >
-    //         Login
-    //       </button>
-    //     </form>
-
-    //   </div>
-    //   {/* Theme Button */}
-    //     {/* <div className="flex justify-end mb-4"> */}
-    //       <button
-    //         onClick={() => setDarkMode(!darkMode)}
-    //         className="fixed bottom-4 right-4 px-4 py-3 rounded-full
-    //          bg-gray-200 dark:bg-gray-700
-    //          text-gray-800 dark:text-white
-    //          shadow-lg hover:scale-105 transition"
-    //       >
-    //         {darkMode ? "☀️ Light" : "🌙 Dark"}
-    //       </button>
-    //     {/* </div> */}
-    // </div>
-    
-    // // Login form ends
-
-
-   
+  return (   
 <>
-    <BrowserRoutes>
+    <BrowserRouter>
       <Routes>
-        <Route path="/" element={< Login />} />
+        <Route path="/" element={<Login />} />
       </Routes>
-    </BrowserRoutes>
+    </BrowserRouter>
 </>
 
   );
 };
 
-export default App
+export default App;
