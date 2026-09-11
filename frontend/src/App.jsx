@@ -1,57 +1,62 @@
+
+import React from "react";
 import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
 import './App.css'
+import axios from 'axios';
+
+import Login from './pages/login'; 
+// import Home from "Components/home";
+import { BrowserRoutes, Routes, Route} from 'react-router-dom';
 
 function App() {
-  const [count, setCount] = useState(0)
-  const [darkMode, setDarkMode] = useState(false);
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+
+  // const [count, setCount] = useState(0)
+  // const [darkMode, setDarkMode] = useState(false);
+  // const [email, setEmail] = useState("");
+  // const [password, setPassword] = useState("");
 
 
-    const handleLogin = async (e) => {
-    e.preventDefault();
+    // const handleLogin = async (e) => {
+    // e.preventDefault();
 
-    try {
-      const response = await fetch("http://localhost:5000/api/login", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          email,
-          password,
-        }),
-      });
+    // try {
+    //   const response = await fetch("http://localhost:5000/api/login", {
+    //     method: "POST",
+    //     headers: {
+    //       "Content-Type": "application/json",
+    //     },
+    //     body: JSON.stringify({
+    //       email,
+    //       password,
+    //     }),
+    //   });
 
-      const data = await response.json();
+      // const data = await response.json();
 
-      if (!response.ok) {
-        alert(data.message);
-        return;
-      }
+      // if (!response.ok) {
+      //   alert(data.message);
+      //   return;
+      // }
 
-      console.log("Login successful:", data);
-      alert("Login successful!");
-    } catch (error) {
-      console.error("Login error:", error);
-      alert("Something went wrong");
-    }
-  };
+  //     console.log("Login successful:", data);
+  //     alert("Login successful!");
+  //   } catch (error) {
+  //     console.error("Login error:", error);
+  //     alert("Something went wrong");
+  //   }
+  // };
 
-  const HandleEvent = eventHandle();
+  // const HandleEvent = eventHandle();
 
-  async function eventHandle(e){
-      e.preventDefault();
+  // async function eventHandle(e){
+  //     e.preventDefault();
 
-      try {
+  //     try {
         
-      } catch (error) {
+  //     } catch (error) {
         
-      }
-  }
+  //     }
+  // }
 
   return (
 
