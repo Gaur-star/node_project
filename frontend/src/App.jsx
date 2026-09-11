@@ -55,86 +55,96 @@ function App() {
 
   return (
 
-    // Login form starts
+    // // Login form starts
 
-    <div
-      className={`min-h-screen flex items-center justify-center ${
-        darkMode ? "dark bg-gray-900" : "bg-gray-100"
-      }`}
-    >
-      <div className="w-96 bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg">        
+    // <div
+    //   className={`min-h-screen flex items-center justify-center ${
+    //     darkMode ? "dark bg-gray-900" : "bg-gray-100"
+    //   }`}
+    // >
+    //   <div className="w-96 bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg">        
 
-        <h1 className="text-2xl font-bold text-center mb-6 text-gray-800 dark:text-white">
-          Login
-        </h1>
+    //     <h1 className="text-2xl font-bold text-center mb-6 text-gray-800 dark:text-white">
+    //       Login
+    //     </h1>
 
-        <form onSubmit={handleLogin} >
-          {/* Email */}
-          <div className="mb-4">
-            <label className="block text-gray-700 dark:text-gray-200 mb-2">
-              Email
-            </label>
+    //     <form onSubmit={handleLogin} >
+    //       {/* Email */}
+    //       <div className="mb-4">
+    //         <label className="block text-gray-700 dark:text-gray-200 mb-2">
+    //           Email
+    //         </label>
 
-            <input
-              type="email"
-              placeholder="Enter your email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              className="w-full border border-gray-300 dark:border-gray-600
-                         bg-white dark:bg-gray-700
-                         text-gray-900 dark:text-white
-                         rounded-md px-3 py-2
-                         focus:outline-none focus:ring-2 focus:ring-blue-500"
-            />
-          </div>
+    //         <input
+    //           type="email"
+    //           placeholder="Enter your email"
+    //           value={email}
+    //           onChange={(e) => setEmail(e.target.value)}
+    //           className="w-full border border-gray-300 dark:border-gray-600
+    //                      bg-white dark:bg-gray-700
+    //                      text-gray-900 dark:text-white
+    //                      rounded-md px-3 py-2
+    //                      focus:outline-none focus:ring-2 focus:ring-blue-500"
+    //         />
+    //       </div>
 
-          {/* Password */}
-          <div className="mb-6">
-            <label className="block text-gray-700 dark:text-gray-200 mb-2">
-              Password
-            </label>
+    //       {/* Password */}
+    //       <div className="mb-6">
+    //         <label className="block text-gray-700 dark:text-gray-200 mb-2">
+    //           Password
+    //         </label>
 
-            <input
-              type="password"
-              placeholder="Enter your password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              className="w-full border border-gray-300 dark:border-gray-600
-                         bg-white dark:bg-gray-700
-                         text-gray-900 dark:text-white
-                         rounded-md px-3 py-2
-                         focus:outline-none focus:ring-2 focus:ring-blue-500"
-            />
-          </div>
+    //         <input
+    //           type="password"
+    //           placeholder="Enter your password"
+    //           value={password}
+    //           onChange={(e) => setPassword(e.target.value)}
+    //           className="w-full border border-gray-300 dark:border-gray-600
+    //                      bg-white dark:bg-gray-700
+    //                      text-gray-900 dark:text-white
+    //                      rounded-md px-3 py-2
+    //                      focus:outline-none focus:ring-2 focus:ring-blue-500"
+    //         />
+    //       </div>
 
-          {/* Login */}
-          <button
-            type="submit"
-            className="w-full bg-blue-500 hover:bg-blue-600
-                       text-white py-2 rounded-md"
-          >
-            Login
-          </button>
-        </form>
+    //       {/* Login */}
+    //       <button
+    //         type="submit"
+    //         className="w-full bg-blue-500 hover:bg-blue-600
+    //                    text-white py-2 rounded-md"
+    //       >
+    //         Login
+    //       </button>
+    //     </form>
 
-      </div>
-      {/* Theme Button */}
-        {/* <div className="flex justify-end mb-4"> */}
-          <button
-            onClick={() => setDarkMode(!darkMode)}
-            className="fixed bottom-4 right-4 px-4 py-3 rounded-full
-             bg-gray-200 dark:bg-gray-700
-             text-gray-800 dark:text-white
-             shadow-lg hover:scale-105 transition"
-          >
-            {darkMode ? "☀️ Light" : "🌙 Dark"}
-          </button>
-        {/* </div> */}
-    </div>
+    //   </div>
+    //   {/* Theme Button */}
+    //     {/* <div className="flex justify-end mb-4"> */}
+    //       <button
+    //         onClick={() => setDarkMode(!darkMode)}
+    //         className="fixed bottom-4 right-4 px-4 py-3 rounded-full
+    //          bg-gray-200 dark:bg-gray-700
+    //          text-gray-800 dark:text-white
+    //          shadow-lg hover:scale-105 transition"
+    //       >
+    //         {darkMode ? "☀️ Light" : "🌙 Dark"}
+    //       </button>
+    //     {/* </div> */}
+    // </div>
     
-    // Login form ends
+    // // Login form ends
 
-  )
-}
+
+   
+<>
+    <BrowserRoutes>
+      <Routes>
+        <Route path="/" element={< Login />} />
+      </Routes>
+    </BrowserRoutes>
+</>
+
+  );
+};
 
 export default App
