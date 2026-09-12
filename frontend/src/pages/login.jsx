@@ -7,14 +7,14 @@ function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  function handleLogin(e) {
+  async function handleLogin(e) {
     e.preventDefault();
 
     // console.log("Email:", email);
     // console.log("Password:", password);
 
     try {
-    const response = await fetch("http://localhost:5000/api/login", {
+    const response = await fetch("http://localhost:8100/api/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

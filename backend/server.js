@@ -1,9 +1,10 @@
 const express = require("express");
-
+const cors = require("cors");
 const PORT = 8100;
-
 const app = express();
 
+app.use(cors());
+app.use(express.json());
 
 app.post("/api/login", (req, res) => {
   const { email, password } = req.body;
