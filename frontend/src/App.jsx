@@ -1,6 +1,10 @@
 import Login from './pages/login'; 
-import Dashboard from './components/dashboard'; 
+import Home from './pages/Home';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import './assets/css/style.css';
+import './assets/css/bootstrap.min.css';
+// import './assets/images';
+
 
 
 function App() {    
@@ -10,7 +14,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Login />} />
-        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/home" element={<Home />} />
       </Routes>
     </BrowserRouter>
 
