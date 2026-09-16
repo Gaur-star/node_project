@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 
-app.post("/api/login", (req, res) => {
+app.post("/api/login", async (req, res) => {
 
 
   const { email, password } = req.body;
@@ -43,9 +43,9 @@ app.post("/api/login", (req, res) => {
     });
 });
 
-app.get("/", (req,res) => {
-    res.send("HI");
-} );
+// app.get("/", (req,res) => {
+//     res.send("HI");
+// } );
 
 app.listen(PORT, 
     () => { console.log(`server started at port ${PORT}`);
