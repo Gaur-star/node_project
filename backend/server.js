@@ -1,5 +1,6 @@
 const express = require("express");
 const cors = require("cors");
+const bcrypt = require("bcrypt");
 const PORT = 8100;
 const app = express();
 const db = require("./db");
@@ -24,6 +25,21 @@ app.post("/api/login", async (req, res) => {
       INSERT INTO users (email, password)
       VALUES (?, ?)
     `;
+
+    db.query(sql, [email, hashedPassword], (err, result) => {
+    if (err) {
+      console.error(err);
+      return res.status(500).json({
+        message: "Failed to save user"
+      });
+    }
+
+    res.json({
+      message: "User saved successfully",
+      id: result.insertId
+    });
+  });
+  
 
     db.query(sql, [email, hashedPassword], (err, result) => {
       if (err) {
