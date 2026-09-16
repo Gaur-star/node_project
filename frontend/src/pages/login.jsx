@@ -10,20 +10,27 @@ function Login() {
   async function handleLogin(e) {
     e.preventDefault();
 
-    // console.log("Email:", email);
-    // console.log("Password:", password);
+    console.log("Email:", email);
+    console.log("Password:", password);
+
+    const body = {
+          email: email,
+          password: password,
+        };
+
+        console.log("Sending:", body);
 
     try {
-    const response = await fetch("http://localhost:8100/api/login", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        email: email,
-        password: password,
-      }),
-    });
+      const response = await fetch("http://localhost:8100/api/login", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          email: email,
+          password: password,
+        }),
+      });
 
     const data = await response.json();
 
