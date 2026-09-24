@@ -25,8 +25,6 @@ app.post("/api/login", async (req, res) => {
     }
 
   
-
-  
   /******save to db ***********/
     const hashedPassword = await bcrypt.hash(password, 10);
 

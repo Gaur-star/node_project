@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import './assets/css/style.css';
 import './assets/css/bootstrap.min.css';
 // import './assets/images';
-import AppRoutes from '../routes/AppRoutes';
+import AppRoutes from './routes/AppRoutes';
 
 
 
