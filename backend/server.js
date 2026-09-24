@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const bcrypt = require("bcrypt");
-const PORT = 8100;
+const PORT = process.env.PORT || 8100;
 const app = express();
 const db = require("./db");
 
@@ -16,6 +16,15 @@ app.post("/api/login", async (req, res) => {
 
   console.log("Email:", email);
   console.log("Password:", password);
+
+   // Check input
+    if (!email || !password) {
+      return res.status(400).json({
+        message: "Email and password are required",
+      });
+    }
+
+  
 
   
   /******save to db ***********/
