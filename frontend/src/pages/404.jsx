@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 // import Header from '../components/Header'
 import error_page from '../components/404'
 
-function Home() {
+function error_page() {
   return (
     <div>
         {/* <Header /> */}
@@ -17,4 +17,4 @@ function Home() {
   )
 }
 
-export default 404
+export default error_page
