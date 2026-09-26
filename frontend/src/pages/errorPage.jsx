@@ -3,18 +3,18 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 // import Sidebar from '../components/Sidebar'
 // import Header from '../components/Header'
-import error_page from '../components/error_page'
+import errorPageUser from '../components/errorPageUser'
 
-function error_page() {
+function errorPage() {
   return (
     <div>
         {/* <Header /> */}
         <Navbar />
         {/* <Sidebar /> */}
-        <error_page />
+        <errorPageUser />
         <Footer />
     </div>
   )
 }
 
-export default error_page
+export default errorPage

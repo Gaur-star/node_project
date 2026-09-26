@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 // import Sidebar from '../components/Sidebar'
 // import Header from '../components/Header'
-import Shopdetails from '../components/ShopdetailsUser'
+import ShopdetailsUser from '../components/ShopdetailsUser'
 
 function Shopdetails() {
   return (
@@ -11,7 +11,7 @@ function Shopdetails() {
         {/* <Header /> */}
         <Navbar />
         {/* <Sidebar /> */}
-        <Shopdetails />
+        <ShopdetailsUser />
         <Footer />
     </div>
   )
