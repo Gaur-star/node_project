@@ -3,18 +3,18 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 // import Sidebar from '../components/Sidebar'
 // import Header from '../components/Header'
-import Shop_details from '../components/Shop-details'
+import Shopdetails from '../components/ShopdetailsUser'
 
-function Shop_details() {
+function Shopdetails() {
   return (
     <div>
         {/* <Header /> */}
         <Navbar />
         {/* <Sidebar /> */}
-        <Shop_details />
+        <Shopdetails />
         <Footer />
     </div>
   )
 }
 
-export default Shop_details
+export default Shopdetails

@@ -7,7 +7,7 @@ import ProtectedRoute from './ProtectedRoute';
 import Checkout from '../pages/Checkout';
 import Contact from '../pages/Contact';
 import Shop from '../pages/Shop';
-import Shop_details from '../pages/Shop-details';
+import Shop_details from '../pages/Shopdetails';
 import error_page from '../pages/404';
 
 function AppRoutes() {

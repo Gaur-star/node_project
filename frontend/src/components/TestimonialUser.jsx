@@ -1,6 +1,6 @@
 import React from 'react'
 
-function testimonial() {
+function TestimonialUser() {
   return (
     <div>
         {/* Tastimonial Start */}
@@ -95,4 +95,4 @@ function testimonial() {
   )
 }
 
-export default testimonial
+export default TestimonialUser

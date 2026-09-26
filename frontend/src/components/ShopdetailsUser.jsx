@@ -1,6 +1,6 @@
 import React from 'react'
 
-function shop_details() {
+function ShopdetailsUser() {
   return (
     <div>
               {/* Single Product Start */}
@@ -487,4 +487,4 @@ function shop_details() {
   )
 }
 
-export default shop_details
+export default ShopdetailsUser

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function shop() {
+function ShopUser() {
   return (
     <div>
 {/* Fruits Shop Start*/}
@@ -345,4 +345,4 @@ function shop() {
   )
 }
 
-export default shop
+export default ShopUser

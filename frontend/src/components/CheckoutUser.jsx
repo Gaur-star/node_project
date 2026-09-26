@@ -1,6 +1,6 @@
 import React from 'react'
 
-function checkout() {
+function CheckoutUser() {
   return (
     <div>
     {/* Checkout Page Start */}
@@ -210,4 +210,4 @@ function checkout() {
   )
 }
 
-export default checkout
+export default CheckoutUser
