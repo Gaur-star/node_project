@@ -14,10 +14,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.3.1",
     "@tailwindcss/vite": "^4.3.3",
     "axios": "^1.20.0",
     "bootstrap": "^5.3.8",
+    "jquery": "^4.0.0",
     "node": "^26.8.1",
+    "owl.carousel": "^2.3.4",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "react-router-dom": "^7.18.3",
