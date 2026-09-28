@@ -27,7 +27,7 @@ function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse bg-white" id="navbarCollapse">
                     <div className="navbar-nav mx-auto">
-                    <NavLink to="/index" className="nav-item nav-link active">Home</NavLink>
+                    <NavLink to="/home" className="nav-item nav-link active">Home</NavLink>
                     <NavLink to="/shop" className="nav-item nav-link">Shop</NavLink>
                     <NavLink to="/shop-detail" className="nav-item nav-link">Shop Detail</NavLink>
 
