@@ -21,11 +21,11 @@ function Navbar() {
 
             <div className="container px-0">
                 <nav className="navbar navbar-light bg-white navbar-expand-xl">
-                <Link to="#" className="navbar-brand"><h1 className="text-primary display-6">Fruitables</h1></Link>
+                <Link to="/home" className="navbar-brand"><h1 className="text-primary display-6">Fruitables</h1></Link>
                 <button className="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span className="fa fa-bars text-primary" />
                 </button>
-                <div className="collapse navbar-collapse bg-white" id="navbarCollapse">
+                <div className="navbar-collapse bg-white" id="navbarCollapse">
                     <div className="navbar-nav mx-auto">
                     <NavLink to="#" className="nav-item nav-link">Home</NavLink>
                     <NavLink to="/shop" className="nav-item nav-link">Shop</NavLink>

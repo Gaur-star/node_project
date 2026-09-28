@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
+import Navbar from "../components/Navbar";
 
 import Login from '../pages/login';
 import Home from '../pages/Home';
@@ -8,18 +9,21 @@ import Checkout from '../pages/Checkout';
 import Contact from '../pages/Contact';
 import Shop from '../pages/Shop';
 import Shop_details from '../pages/Shopdetails';
-import error_page from '../pages/errorPage';
+// import error_page from '../pages/errorPage';
 
 function AppRoutes() {
   return (
+<>   
+<Navbar />
+
     <Routes>
        {/* Public routes */}
       <Route path="/" element={<Login />} />
-      <Route path="/home" element={<Home />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/home" element={<Home />} />      
       <Route path="/shop" element={<Shop />} />
       <Route path="/shop-details" element={<Shop_details />} />
-      <Route path="/error_page" element={<error_page />} />
+      {/* <Route path="/error_page" element={<error_page />} /> */}
       
 
       {/* Login required */}
@@ -29,6 +33,8 @@ function AppRoutes() {
         {/* <Route path="/payment" element={<Payment />} /> */}
       </Route>
     </Routes>
+
+    </>
   );
 }
 

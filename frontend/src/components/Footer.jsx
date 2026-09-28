@@ -1,4 +1,5 @@
  import React from 'react'
+ import { Link } from "react-router-dom"
  
  function Footer() {
    return (
@@ -21,10 +22,10 @@
                 </div>
                 <div className="col-lg-3">
                     <div className="d-flex justify-content-end pt-3">
-                    <a className="btn  btn-outline-secondary me-2 btn-md-square rounded-circle" href="#"><i className="fab fa-twitter" /></a>
-                    <a className="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href="#"><i className="fab fa-facebook-f" /></a>
-                    <a className="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href="#"><i className="fab fa-youtube" /></a>
-                    <a className="btn btn-outline-secondary btn-md-square rounded-circle" href="#"><i className="fab fa-linkedin-in" /></a>
+                    <Link className="btn  btn-outline-secondary me-2 btn-md-square rounded-circle" href="#"><i className="fab fa-twitter" /></Link>
+                    <Link className="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href="#"><i className="fab fa-facebook-f" /></Link>
+                    <Link className="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href="#"><i className="fab fa-youtube" /></Link>
+                    <Link className="btn btn-outline-secondary btn-md-square rounded-circle" href="#"><i className="fab fa-linkedin-in" /></Link>
                     </div>
                 </div>
                 </div>
@@ -41,23 +42,23 @@
                 <div className="col-lg-3 col-md-6">
                 <div className="d-flex flex-column text-start footer-item">
                     <h4 className="text-light mb-3">Shop Info</h4>
-                    <a className="btn-link" href="#">About Us</a>
-                    <a className="btn-link" href="#">Contact Us</a>
-                    <a className="btn-link" href="#">Privacy Policy</a>
-                    <a className="btn-link" href="#">Terms &amp; Condition</a>
-                    <a className="btn-link" href="#">Return Policy</a>
-                    <a className="btn-link" href="#">FAQs &amp; Help</a>
+                    <Link className="btn-link" to="#">About Us</Link>
+                    <Link className="btn-link" to="/contact">Contact Us</Link>
+                    <Link className="btn-link" to="#">Privacy Policy</Link>
+                    <Link className="btn-link" to="#">Terms &amp; Condition</Link>
+                    <Link className="btn-link" to="#">Return Policy</Link>
+                    <Link className="btn-link" to="#">FAQs &amp; Help</Link>
                 </div>
                 </div>
                 <div className="col-lg-3 col-md-6">
                 <div className="d-flex flex-column text-start footer-item">
                     <h4 className="text-light mb-3">Account</h4>
-                    <a className="btn-link" href="#">My Account</a>
-                    <a className="btn-link" href="#">Shop details</a>
-                    <a className="btn-link" href="#">Shopping Cart</a>
-                    <a className="btn-link" href="#">Wishlist</a>
-                    <a className="btn-link" href="#">Order History</a>
-                    <a className="btn-link" href="#">International Orders</a>
+                    <Link className="btn-link" to="#">My Account</Link>
+                    <Link className="btn-link" to="#">Shop details</Link>
+                    <Link className="btn-link" to="#">Shopping Cart</Link>
+                    <Link className="btn-link" to="#">Wishlist</Link>
+                    <Link className="btn-link" to="#">Order History</Link>
+                    <Link className="btn-link" to="#">International Orders</Link>
                 </div>
                 </div>
                 <div className="col-lg-3 col-md-6">
