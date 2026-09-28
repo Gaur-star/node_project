@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function Body() {
   return (
@@ -152,7 +152,7 @@ function Body() {
                         <div className="col-md-6 col-lg-4 col-xl-3">
                             <div className="rounded position-relative fruite-item">
                             <div className="fruite-img">
-                                <img src="img/fruite-item-5.jpg" className="img-fluid w-100 rounded-top" alt />
+                                <img src="img/fruite-item-5.jpg" className="img-fluid w-100 rounded-top" alt="" />
                             </div>
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
@@ -168,7 +168,7 @@ function Body() {
                         <div className="col-md-6 col-lg-4 col-xl-3">
                             <div className="rounded position-relative fruite-item">
                             <div className="fruite-img">
-                                <img src="img/fruite-item-5.jpg" className="img-fluid w-100 rounded-top" alt />
+                                <img src="img/fruite-item-5.jpg" className="img-fluid w-100 rounded-top" alt="" />
                             </div>
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
@@ -184,7 +184,7 @@ function Body() {
                         <div className="col-md-6 col-lg-4 col-xl-3">
                             <div className="rounded position-relative fruite-item">
                             <div className="fruite-img">
-                                <img src="img/fruite-item-2.jpg" className="img-fluid w-100 rounded-top" alt />
+                                <img src="img/fruite-item-2.jpg" className="img-fluid w-100 rounded-top" alt="" />
                             </div>
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
@@ -200,7 +200,7 @@ function Body() {
                         <div className="col-md-6 col-lg-4 col-xl-3">
                             <div className="rounded position-relative fruite-item">
                             <div className="fruite-img">
-                                <img src="img/fruite-item-4.jpg" className="img-fluid w-100 rounded-top" alt />
+                                <img src="img/fruite-item-4.jpg" className="img-fluid w-100 rounded-top" alt="" />
                             </div>
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
@@ -216,7 +216,7 @@ function Body() {
                         <div className="col-md-6 col-lg-4 col-xl-3">
                             <div className="rounded position-relative fruite-item">
                             <div className="fruite-img">
-                                <img src="img/fruite-item-3.jpg" className="img-fluid w-100 rounded-top" alt />
+                                <img src="img/fruite-item-3.jpg" className="img-fluid w-100 rounded-top" alt="" />
                             </div>
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
@@ -232,7 +232,7 @@ function Body() {
                         <div className="col-md-6 col-lg-4 col-xl-3">
                             <div className="rounded position-relative fruite-item">
                             <div className="fruite-img">
-                                <img src="img/fruite-item-1.jpg" className="img-fluid w-100 rounded-top" alt />
+                                <img src="img/fruite-item-1.jpg" className="img-fluid w-100 rounded-top" alt="" />
                             </div>
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
@@ -248,7 +248,7 @@ function Body() {
                         <div className="col-md-6 col-lg-4 col-xl-3">
                             <div className="rounded position-relative fruite-item">
                             <div className="fruite-img">
-                                <img src="img/fruite-item-2.jpg" className="img-fluid w-100 rounded-top" alt />
+                                <img src="img/fruite-item-2.jpg" className="img-fluid w-100 rounded-top" alt="" />
                             </div>
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
@@ -264,7 +264,7 @@ function Body() {
                         <div className="col-md-6 col-lg-4 col-xl-3">
                             <div className="rounded position-relative fruite-item">
                             <div className="fruite-img">
-                                <img src="img/fruite-item-5.jpg" className="img-fluid w-100 rounded-top" alt />
+                                <img src="img/fruite-item-5.jpg" className="img-fluid w-100 rounded-top" alt="" />
                             </div>
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
@@ -288,7 +288,7 @@ function Body() {
                         <div className="col-md-6 col-lg-4 col-xl-3">
                             <div className="rounded position-relative fruite-item">
                             <div className="fruite-img">
-                                <img src="img/fruite-item-5.jpg" className="img-fluid w-100 rounded-top" alt />
+                                <img src="img/fruite-item-5.jpg" className="img-fluid w-100 rounded-top" alt="" />
                             </div>
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
@@ -304,7 +304,7 @@ function Body() {
                         <div className="col-md-6 col-lg-4 col-xl-3">
                             <div className="rounded position-relative fruite-item">
                             <div className="fruite-img">
-                                <img src="img/fruite-item-2.jpg" className="img-fluid w-100 rounded-top" alt />
+                                <img src="img/fruite-item-2.jpg" className="img-fluid w-100 rounded-top" alt="" />
                             </div>
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
@@ -328,7 +328,7 @@ function Body() {
                         <div className="col-md-6 col-lg-4 col-xl-3">
                             <div className="rounded position-relative fruite-item">
                             <div className="fruite-img">
-                                <img src="img/fruite-item-1.jpg" className="img-fluid w-100 rounded-top" alt />
+                                <img src="img/fruite-item-1.jpg" className="img-fluid w-100 rounded-top" alt="" />
                             </div>
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
@@ -344,7 +344,7 @@ function Body() {
                         <div className="col-md-6 col-lg-4 col-xl-3">
                             <div className="rounded position-relative fruite-item">
                             <div className="fruite-img">
-                                <img src="img/fruite-item-6.jpg" className="img-fluid w-100 rounded-top" alt />
+                                <img src="img/fruite-item-6.jpg" className="img-fluid w-100 rounded-top" alt="" />
                             </div>
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
@@ -368,7 +368,7 @@ function Body() {
                         <div className="col-md-6 col-lg-4 col-xl-3">
                             <div className="rounded position-relative fruite-item">
                             <div className="fruite-img">
-                                <img src="img/fruite-item-5.jpg" className="img-fluid w-100 rounded-top" alt />
+                                <img src="img/fruite-item-5.jpg" className="img-fluid w-100 rounded-top" alt="" />
                             </div>
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
@@ -384,7 +384,7 @@ function Body() {
                         <div className="col-md-6 col-lg-4 col-xl-3">
                             <div className="rounded position-relative fruite-item">
                             <div className="fruite-img">
-                                <img src="img/fruite-item-4.jpg" className="img-fluid w-100 rounded-top" alt />
+                                <img src="img/fruite-item-4.jpg" className="img-fluid w-100 rounded-top" alt="" />
                             </div>
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
@@ -408,7 +408,7 @@ function Body() {
                         <div className="col-md-6 col-lg-4 col-xl-3">
                             <div className="rounded position-relative fruite-item">
                             <div className="fruite-img">
-                                <img src="img/fruite-item-3.jpg" className="img-fluid w-100 rounded-top" alt />
+                                <img src="img/fruite-item-3.jpg" className="img-fluid w-100 rounded-top" alt="" />
                             </div>
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
@@ -424,7 +424,7 @@ function Body() {
                         <div className="col-md-6 col-lg-4 col-xl-3">
                             <div className="rounded position-relative fruite-item">
                             <div className="fruite-img">
-                                <img src="img/fruite-item-2.jpg" className="img-fluid w-100 rounded-top" alt />
+                                <img src="img/fruite-item-2.jpg" className="img-fluid w-100 rounded-top" alt="" />
                             </div>
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
@@ -440,7 +440,7 @@ function Body() {
                         <div className="col-md-6 col-lg-4 col-xl-3">
                             <div className="rounded position-relative fruite-item">
                             <div className="fruite-img">
-                                <img src="img/fruite-item-1.jpg" className="img-fluid w-100 rounded-top" alt />
+                                <img src="img/fruite-item-1.jpg" className="img-fluid w-100 rounded-top" alt="" />
                             </div>
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
@@ -467,7 +467,7 @@ function Body() {
                 <div className="col-md-6 col-lg-4">
                 <a href="#">
                     <div className="service-item bg-secondary rounded border border-secondary">
-                    <img src="img/featur-1.jpg" className="img-fluid rounded-top w-100" alt />
+                    <img src="img/featur-1.jpg" className="img-fluid rounded-top w-100" alt="" />
                     <div className="px-4 rounded-bottom">
                         <div className="service-content bg-primary text-center p-4 rounded">
                         <h5 className="text-white">Fresh Apples</h5>
@@ -480,7 +480,7 @@ function Body() {
                 <div className="col-md-6 col-lg-4">
                 <a href="#">
                     <div className="service-item bg-dark rounded border border-dark">
-                    <img src="img/featur-2.jpg" className="img-fluid rounded-top w-100" alt />
+                    <img src="img/featur-2.jpg" className="img-fluid rounded-top w-100" alt="" />
                     <div className="px-4 rounded-bottom">
                         <div className="service-content bg-light text-center p-4 rounded">
                         <h5 className="text-primary">Tasty Fruits</h5>
@@ -493,7 +493,7 @@ function Body() {
                 <div className="col-md-6 col-lg-4">
                 <a href="#">
                     <div className="service-item bg-primary rounded border border-primary">
-                    <img src="img/featur-3.jpg" className="img-fluid rounded-top w-100" alt />
+                    <img src="img/featur-3.jpg" className="img-fluid rounded-top w-100" alt="" />
                     <div className="px-4 rounded-bottom">
                         <div className="service-content bg-secondary text-center p-4 rounded">
                         <h5 className="text-white">Exotic Vegitable</h5>
@@ -512,7 +512,7 @@ function Body() {
             <div className="owl-carousel vegetable-carousel justify-content-center">
                 <div className="border border-primary rounded position-relative vesitable-item">
                 <div className="vesitable-img">
-                    <img src="img/vegetable-item-6.jpg" className="img-fluid w-100 rounded-top" alt />
+                    <img src="img/vegetable-item-6.jpg" className="img-fluid w-100 rounded-top" alt="" />
                 </div>
                 <div className="text-white bg-primary px-3 py-1 rounded position-absolute" style={{top: 10, right: 10}}>Vegetable</div>
                 <div className="p-4 rounded-bottom">
@@ -526,7 +526,7 @@ function Body() {
                 </div>
                 <div className="border border-primary rounded position-relative vesitable-item">
                 <div className="vesitable-img">
-                    <img src="img/vegetable-item-1.jpg" className="img-fluid w-100 rounded-top" alt />
+                    <img src="img/vegetable-item-1.jpg" className="img-fluid w-100 rounded-top" alt="" />
                 </div>
                 <div className="text-white bg-primary px-3 py-1 rounded position-absolute" style={{top: 10, right: 10}}>Vegetable</div>
                 <div className="p-4 rounded-bottom">
@@ -540,7 +540,7 @@ function Body() {
                 </div>
                 <div className="border border-primary rounded position-relative vesitable-item">
                 <div className="vesitable-img">
-                    <img src="img/vegetable-item-3.png" className="img-fluid w-100 rounded-top bg-light" alt />
+                    <img src="img/vegetable-item-3.png" className="img-fluid w-100 rounded-top bg-light" alt="" />
                 </div>
                 <div className="text-white bg-primary px-3 py-1 rounded position-absolute" style={{top: 10, right: 10}}>Vegetable</div>
                 <div className="p-4 rounded-bottom">
@@ -554,7 +554,7 @@ function Body() {
                 </div>
                 <div className="border border-primary rounded position-relative vesitable-item">
                 <div className="vesitable-img">
-                    <img src="img/vegetable-item-4.jpg" className="img-fluid w-100 rounded-top" alt />
+                    <img src="img/vegetable-item-4.jpg" className="img-fluid w-100 rounded-top" alt="" />
                 </div>
                 <div className="text-white bg-primary px-3 py-1 rounded position-absolute" style={{top: 10, right: 10}}>Vegetable</div>
                 <div className="p-4 rounded-bottom">
@@ -568,7 +568,7 @@ function Body() {
                 </div>
                 <div className="border border-primary rounded position-relative vesitable-item">
                 <div className="vesitable-img">
-                    <img src="img/vegetable-item-5.jpg" className="img-fluid w-100 rounded-top" alt />
+                    <img src="img/vegetable-item-5.jpg" className="img-fluid w-100 rounded-top" alt="" />
                 </div>
                 <div className="text-white bg-primary px-3 py-1 rounded position-absolute" style={{top: 10, right: 10}}>Vegetable</div>
                 <div className="p-4 rounded-bottom">
@@ -582,7 +582,7 @@ function Body() {
                 </div>
                 <div className="border border-primary rounded position-relative vesitable-item">
                 <div className="vesitable-img">
-                    <img src="img/vegetable-item-6.jpg" className="img-fluid w-100 rounded-top" alt />
+                    <img src="img/vegetable-item-6.jpg" className="img-fluid w-100 rounded-top" alt="" />
                 </div>
                 <div className="text-white bg-primary px-3 py-1 rounded position-absolute" style={{top: 10, right: 10}}>Vegetable</div>
                 <div className="p-4 rounded-bottom">
@@ -596,7 +596,7 @@ function Body() {
                 </div>
                 <div className="border border-primary rounded position-relative vesitable-item">
                 <div className="vesitable-img">
-                    <img src="img/vegetable-item-5.jpg" className="img-fluid w-100 rounded-top" alt />
+                    <img src="img/vegetable-item-5.jpg" className="img-fluid w-100 rounded-top" alt="" />
                 </div>
                 <div className="text-white bg-primary px-3 py-1 rounded position-absolute" style={{top: 10, right: 10}}>Vegetable</div>
                 <div className="p-4 rounded-bottom">
@@ -610,7 +610,7 @@ function Body() {
                 </div>
                 <div className="border border-primary rounded position-relative vesitable-item">
                 <div className="vesitable-img">
-                    <img src="img/vegetable-item-6.jpg" className="img-fluid w-100 rounded-top" alt />
+                    <img src="img/vegetable-item-6.jpg" className="img-fluid w-100 rounded-top" alt="" />
                 </div>
                 <div className="text-white bg-primary px-3 py-1 rounded position-absolute" style={{top: 10, right: 10}}>Vegetable</div>
                 <div className="p-4 rounded-bottom">
@@ -638,7 +638,7 @@ function Body() {
                 </div>
                 <div className="col-lg-6">
                 <div className="position-relative">
-                    <img src="img/baner-1.png" className="img-fluid w-100 rounded" alt />
+                    <img src="img/baner-1.png" className="img-fluid w-100 rounded" alt="" />
                     <div className="d-flex align-items-center justify-content-center bg-white rounded-circle position-absolute" style={{width: 140, height: 140, top: 0, left: 0}}>
                     <h1 style={{fontSize: 100}}>1</h1>
                     <div className="d-flex flex-column">
@@ -662,7 +662,7 @@ function Body() {
                 <div className="p-4 rounded bg-light">
                     <div className="row align-items-center">
                     <div className="col-6">
-                        <img src="img/best-product-1.jpg" className="img-fluid rounded-circle w-100" alt />
+                        <img src="img/best-product-1.jpg" className="img-fluid rounded-circle w-100" alt="" />
                     </div>
                     <div className="col-6">
                         <a href="#" className="h5">Organic Tomato</a>
@@ -683,7 +683,7 @@ function Body() {
                 <div className="p-4 rounded bg-light">
                     <div className="row align-items-center">
                     <div className="col-6">
-                        <img src="img/best-product-2.jpg" className="img-fluid rounded-circle w-100" alt />
+                        <img src="img/best-product-2.jpg" className="img-fluid rounded-circle w-100" alt="" />
                     </div>
                     <div className="col-6">
                         <a href="#" className="h5">Organic Tomato</a>
@@ -704,7 +704,7 @@ function Body() {
                 <div className="p-4 rounded bg-light">
                     <div className="row align-items-center">
                     <div className="col-6">
-                        <img src="img/best-product-3.jpg" className="img-fluid rounded-circle w-100" alt />
+                        <img src="img/best-product-3.jpg" className="img-fluid rounded-circle w-100" alt="" />
                     </div>
                     <div className="col-6">
                         <a href="#" className="h5">Organic Tomato</a>
@@ -725,7 +725,7 @@ function Body() {
                 <div className="p-4 rounded bg-light">
                     <div className="row align-items-center">
                     <div className="col-6">
-                        <img src="img/best-product-4.jpg" className="img-fluid rounded-circle w-100" alt />
+                        <img src="img/best-product-4.jpg" className="img-fluid rounded-circle w-100" alt="" />
                     </div>
                     <div className="col-6">
                         <a href="#" className="h5">Organic Tomato</a>
@@ -746,7 +746,7 @@ function Body() {
                 <div className="p-4 rounded bg-light">
                     <div className="row align-items-center">
                     <div className="col-6">
-                        <img src="img/best-product-5.jpg" className="img-fluid rounded-circle w-100" alt />
+                        <img src="img/best-product-5.jpg" className="img-fluid rounded-circle w-100" alt="" />
                     </div>
                     <div className="col-6">
                         <a href="#" className="h5">Organic Tomato</a>
@@ -767,7 +767,7 @@ function Body() {
                 <div className="p-4 rounded bg-light">
                     <div className="row align-items-center">
                     <div className="col-6">
-                        <img src="img/best-product-6.jpg" className="img-fluid rounded-circle w-100" alt />
+                        <img src="img/best-product-6.jpg" className="img-fluid rounded-circle w-100" alt="" />
                     </div>
                     <div className="col-6">
                         <a href="#" className="h5">Organic Tomato</a>
@@ -786,7 +786,7 @@ function Body() {
                 </div>
                 <div className="col-md-6 col-lg-6 col-xl-3">
                 <div className="text-center">
-                    <img src="img/fruite-item-1.jpg" className="img-fluid rounded" alt />
+                    <img src="img/fruite-item-1.jpg" className="img-fluid rounded" alt="" />
                     <div className="py-4">
                     <a href="#" className="h5">Organic Tomato</a>
                     <div className="d-flex my-3 justify-content-center">
@@ -803,7 +803,7 @@ function Body() {
                 </div>
                 <div className="col-md-6 col-lg-6 col-xl-3">
                 <div className="text-center">
-                    <img src="img/fruite-item-2.jpg" className="img-fluid rounded" alt />
+                    <img src="img/fruite-item-2.jpg" className="img-fluid rounded" alt="" />
                     <div className="py-4">
                     <a href="#" className="h5">Organic Tomato</a>
                     <div className="d-flex my-3 justify-content-center">
@@ -820,7 +820,7 @@ function Body() {
                 </div>
                 <div className="col-md-6 col-lg-6 col-xl-3">
                 <div className="text-center">
-                    <img src="img/fruite-item-3.jpg" className="img-fluid rounded" alt />
+                    <img src="img/fruite-item-3.jpg" className="img-fluid rounded" alt="" />
                     <div className="py-4">
                     <a href="#" className="h5">Organic Tomato</a>
                     <div className="d-flex my-3 justify-content-center">
@@ -837,7 +837,7 @@ function Body() {
                 </div>
                 <div className="col-md-6 col-lg-6 col-xl-3">
                 <div className="text-center">
-                    <img src="img/fruite-item-4.jpg" className="img-fluid rounded" alt />
+                    <img src="img/fruite-item-4.jpg" className="img-fluid rounded" alt="" />
                     <div className="py-2">
                     <a href="#" className="h5">Organic Tomato</a>
                     <div className="d-flex my-3 justify-content-center">
@@ -907,7 +907,7 @@ function Body() {
                     </div>
                     <div className="d-flex align-items-center flex-nowrap">
                     <div className="bg-secondary rounded">
-                        <img src="img/testimonial-1.jpg" className="img-fluid rounded" style={{width: 100, height: 100}} alt />
+                        <img src="img/testimonial-1.jpg" className="img-fluid rounded" style={{width: 100, height: 100}} alt="" />
                     </div>
                     <div className="ms-4 d-block">
                         <h4 className="text-dark">Client Name</h4>
@@ -932,7 +932,7 @@ function Body() {
                     </div>
                     <div className="d-flex align-items-center flex-nowrap">
                     <div className="bg-secondary rounded">
-                        <img src="img/testimonial-1.jpg" className="img-fluid rounded" style={{width: 100, height: 100}} alt />
+                        <img src="img/testimonial-1.jpg" className="img-fluid rounded" style={{width: 100, height: 100}} alt="" />
                     </div>
                     <div className="ms-4 d-block">
                         <h4 className="text-dark">Client Name</h4>
@@ -957,7 +957,7 @@ function Body() {
                     </div>
                     <div className="d-flex align-items-center flex-nowrap">
                     <div className="bg-secondary rounded">
-                        <img src="img/testimonial-1.jpg" className="img-fluid rounded" style={{width: 100, height: 100}} alt />
+                        <img src="img/testimonial-1.jpg" className="img-fluid rounded" style={{width: 100, height: 100}} alt="" />
                     </div>
                     <div className="ms-4 d-block">
                         <h4 className="text-dark">Client Name</h4>
