@@ -9,7 +9,7 @@ import Checkout from '../pages/Checkout';
 import Contact from '../pages/Contact';
 import Shop from '../pages/Shop';
 import Shop_details from '../pages/Shopdetails';
-// import error_page from '../pages/errorPage';
+import Testimonial from '../pages/Testimonial';
 
 function AppRoutes() {
   return (
@@ -23,7 +23,7 @@ function AppRoutes() {
       <Route path="/home" element={<Home />} />      
       <Route path="/shop" element={<Shop />} />
       <Route path="/shopDetails" element={<Shop_details />} />
-      {/* <Route path="/error_page" element={<error_page />} /> */}
+      <Route path="/testimonial" element={<Testimonial />} />
       
 
       {/* Login required */}

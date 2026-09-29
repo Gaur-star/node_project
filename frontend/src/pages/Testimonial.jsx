@@ -3,9 +3,9 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 // import Sidebar from '../components/Sidebar'
 // import Header from '../components/Header'
-import Testimonials from '../components/TestimonialUser'
+import Testimonial from '../components/TestimonialUser'
 
-function Testimonials() {
+function Testimonial() {
   return (
     <div>
         {/* <Header /> */}
@@ -17,4 +17,4 @@ function Testimonials() {
   )
 }
 
-export default Testimonials
+export default Testimonial
