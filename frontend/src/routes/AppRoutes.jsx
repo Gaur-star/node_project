@@ -14,7 +14,7 @@ import Shop_details from '../pages/Shopdetails';
 function AppRoutes() {
   return (
 <>   
-<Navbar />
+{/* <Navbar /> */}
 
     <Routes>
        {/* Public routes */}
@@ -22,7 +22,7 @@ function AppRoutes() {
       <Route path="/contact" element={<Contact />} />
       <Route path="/home" element={<Home />} />      
       <Route path="/shop" element={<Shop />} />
-      <Route path="/shop-details" element={<Shop_details />} />
+      <Route path="/shopDetails" element={<Shop_details />} />
       {/* <Route path="/error_page" element={<error_page />} /> */}
       
 

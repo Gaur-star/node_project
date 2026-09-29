@@ -29,7 +29,7 @@ function Navbar() {
                     <div className="navbar-nav mx-auto">
                     <NavLink to="#" className="nav-item nav-link">Home</NavLink>
                     <NavLink to="/shop" className="nav-item nav-link">Shop</NavLink>
-                    <NavLink to="/shop-detail" className="nav-item nav-link">Shop Detail</NavLink>
+                    <NavLink to="/shopDetails" className="nav-item nav-link">Shop Detail</NavLink>
 
                     <div className="nav-item dropdown">
                         <button className="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</button>
