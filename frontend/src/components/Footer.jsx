@@ -34,8 +34,9 @@
                 <div className="col-lg-3 col-md-6">
                 <div className="footer-item">
                     <h4 className="text-light mb-3">Why People Like us!</h4>
-                    <p className="mb-4">typesetting, remaining essentially unchanged. It was 
-                    popularised in the 1960s with the like Aldus PageMaker including of Lorem Ipsum.</p>
+                    <p className="mb-4">
+                        Fresh Fruits • Quality You Can Trust • Delivered Fresh • Freshness in Every Bite
+                    </p>
                     <a href="#" className="btn border-secondary py-2 px-4 rounded-pill text-primary">Read More</a>
                 </div>
                 </div>
