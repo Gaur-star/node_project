@@ -157,7 +157,7 @@ function Body() {
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                                 <h4>Grapes</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                <p>Fresh & Juicy Grapes — Nature’s Little Bites of Sweetness!</p>
                                 <div className="d-flex justify-content-between flex-lg-wrap">
                                 <p className="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
                                 <a href="#" className="btn border border-secondary rounded-pill px-3 text-primary"><i className="fa fa-shopping-bag me-2 text-primary" /> Add to cart</a>
@@ -173,7 +173,7 @@ function Body() {
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                                 <h4>Grapes</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                <p>Fresh & Juicy Grapes — Nature’s Little Bites of Sweetness!</p>
                                 <div className="d-flex justify-content-between flex-lg-wrap">
                                 <p className="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
                                 <a href="#" className="btn border border-secondary rounded-pill px-3 text-primary"><i className="fa fa-shopping-bag me-2 text-primary" /> Add to cart</a>
@@ -189,7 +189,7 @@ function Body() {
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                                 <h4>Raspberries</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                <p>Fresh Raspberries — Little Berries, Big Flavor!</p>
                                 <div className="d-flex justify-content-between flex-lg-wrap">
                                 <p className="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
                                 <a href="#" className="btn border border-secondary rounded-pill px-3 text-primary"><i className="fa fa-shopping-bag me-2 text-primary" /> Add to cart</a>
@@ -205,7 +205,7 @@ function Body() {
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                                 <h4>Apricots</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                <p>Fresh Apricots — A Little Taste of Summer!</p>
                                 <div className="d-flex justify-content-between flex-lg-wrap">
                                 <p className="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
                                 <a href="#" className="btn border border-secondary rounded-pill px-3 text-primary"><i className="fa fa-shopping-bag me-2 text-primary" /> Add to cart</a>
@@ -221,7 +221,7 @@ function Body() {
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                                 <h4>Banana</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                <p>Fresh Bananas — Naturally Sweet, Simply Delicious!</p>
                                 <div className="d-flex justify-content-between flex-lg-wrap">
                                 <p className="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
                                 <a href="#" className="btn border border-secondary rounded-pill px-3 text-primary"><i className="fa fa-shopping-bag me-2 text-primary" /> Add to cart</a>
@@ -237,7 +237,7 @@ function Body() {
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                                 <h4>Oranges</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                <p>Fresh Oranges — A Burst of Sunshine in Every Bite!</p>
                                 <div className="d-flex justify-content-between flex-lg-wrap">
                                 <p className="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
                                 <a href="#" className="btn border border-secondary rounded-pill px-3 text-primary"><i className="fa fa-shopping-bag me-2 text-primary" /> Add to cart</a>
@@ -253,7 +253,7 @@ function Body() {
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                                 <h4>Raspberries</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                <p>Fresh Raspberries — Little Berries, Big Flavor!</p>
                                 <div className="d-flex justify-content-between flex-lg-wrap">
                                 <p className="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
                                 <a href="#" className="btn border border-secondary rounded-pill px-3 text-primary"><i className="fa fa-shopping-bag me-2 text-primary" /> Add to cart</a>
@@ -269,7 +269,7 @@ function Body() {
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                                 <h4>Grapes</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                <p>Fresh & Juicy Grapes — Nature’s Little Bites of Sweetness!</p>
                                 <div className="d-flex justify-content-between flex-lg-wrap">
                                 <p className="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
                                 <a href="#" className="btn border border-secondary rounded-pill px-3 text-primary"><i className="fa fa-shopping-bag me-2 text-primary" /> Add to cart</a>
@@ -293,7 +293,7 @@ function Body() {
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                                 <h4>Grapes</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                <p>Fresh & Juicy Grapes — Nature’s Little Bites of Sweetness!</p>
                                 <div className="d-flex justify-content-between flex-lg-wrap">
                                 <p className="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
                                 <a href="#" className="btn border border-secondary rounded-pill px-3 text-primary"><i className="fa fa-shopping-bag me-2 text-primary" /> Add to cart</a>
@@ -309,7 +309,7 @@ function Body() {
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                                 <h4>Raspberries</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                <p>Fresh Raspberries — Little Berries, Big Flavor!</p>
                                 <div className="d-flex justify-content-between flex-lg-wrap">
                                 <p className="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
                                 <a href="#" className="btn border border-secondary rounded-pill px-3 text-primary"><i className="fa fa-shopping-bag me-2 text-primary" /> Add to cart</a>
@@ -333,7 +333,7 @@ function Body() {
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                                 <h4>Oranges</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                <p>Fresh Oranges — A Burst of Sunshine in Every Bite!</p>
                                 <div className="d-flex justify-content-between flex-lg-wrap">
                                 <p className="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
                                 <a href="#" className="btn border border-secondary rounded-pill px-3 text-primary"><i className="fa fa-shopping-bag me-2 text-primary" /> Add to cart</a>
@@ -349,7 +349,7 @@ function Body() {
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                                 <h4>Apple</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                <p>Fresh Apples — Crisp, Juicy & Naturally Delicious!</p>
                                 <div className="d-flex justify-content-between flex-lg-wrap">
                                 <p className="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
                                 <a href="#" className="btn border border-secondary rounded-pill px-3 text-primary"><i className="fa fa-shopping-bag me-2 text-primary" /> Add to cart</a>
@@ -373,7 +373,7 @@ function Body() {
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                                 <h4>Grapes</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                <p>Fresh & Juicy Grapes — Nature’s Little Bites of Sweetness!</p>
                                 <div className="d-flex justify-content-between flex-lg-wrap">
                                 <p className="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
                                 <a href="#" className="btn border border-secondary rounded-pill px-3 text-primary"><i className="fa fa-shopping-bag me-2 text-primary" /> Add to cart</a>
@@ -389,7 +389,7 @@ function Body() {
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                                 <h4>Apricots</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                <p>Fresh Apricots — A Little Taste of Summer!</p>
                                 <div className="d-flex justify-content-between flex-lg-wrap">
                                 <p className="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
                                 <a href="#" className="btn border border-secondary rounded-pill px-3 text-primary"><i className="fa fa-shopping-bag me-2 text-primary" /> Add to cart</a>
@@ -413,7 +413,7 @@ function Body() {
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                                 <h4>Banana</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                <p>Fresh Bananas — Naturally Sweet, Simply Delicious!</p>
                                 <div className="d-flex justify-content-between flex-lg-wrap">
                                 <p className="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
                                 <a href="#" className="btn border border-secondary rounded-pill px-3 text-primary"><i className="fa fa-shopping-bag me-2 text-primary" /> Add to cart</a>
@@ -429,7 +429,7 @@ function Body() {
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                                 <h4>Raspberries</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                <p>Fresh Raspberries — Little Berries, Big Flavor!</p>
                                 <div className="d-flex justify-content-between flex-lg-wrap">
                                 <p className="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
                                 <a href="#" className="btn border border-secondary rounded-pill px-3 text-primary"><i className="fa fa-shopping-bag me-2 text-primary" /> Add to cart</a>
@@ -445,7 +445,7 @@ function Body() {
                             <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: 10, left: 10}}>Fruits</div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                                 <h4>Oranges</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                <p>Fresh Oranges — A Burst of Sunshine in Every Bite!</p>
                                 <div className="d-flex justify-content-between flex-lg-wrap">
                                 <p className="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
                                 <a href="#" className="btn border border-secondary rounded-pill px-3 text-primary"><i className="fa fa-shopping-bag me-2 text-primary" /> Add to cart</a>
@@ -517,7 +517,7 @@ function Body() {
                 <div className="text-white bg-primary px-3 py-1 rounded position-absolute" style={{top: 10, right: 10}}>Vegetable</div>
                 <div className="p-4 rounded-bottom">
                     <h4>Parsely</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                    <p>Fresh Parsley — A Touch of Freshness in Every Dish!</p>
                     <div className="d-flex justify-content-between flex-lg-wrap">
                     <p className="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
                     <a href="#" className="btn border border-secondary rounded-pill px-3 text-primary"><i className="fa fa-shopping-bag me-2 text-primary" /> Add to cart</a>
@@ -531,7 +531,7 @@ function Body() {
                 <div className="text-white bg-primary px-3 py-1 rounded position-absolute" style={{top: 10, right: 10}}>Vegetable</div>
                 <div className="p-4 rounded-bottom">
                     <h4>Parsely</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                    <p>Fresh Parsley — A Touch of Freshness in Every Dish!</p>
                     <div className="d-flex justify-content-between flex-lg-wrap">
                     <p className="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
                     <a href="#" className="btn border border-secondary rounded-pill px-3 text-primary"><i className="fa fa-shopping-bag me-2 text-primary" /> Add to cart</a>
@@ -545,7 +545,7 @@ function Body() {
                 <div className="text-white bg-primary px-3 py-1 rounded position-absolute" style={{top: 10, right: 10}}>Vegetable</div>
                 <div className="p-4 rounded-bottom">
                     <h4>Banana</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                    <p>Fresh Bananas — Naturally Sweet, Simply Delicious!</p>
                     <div className="d-flex justify-content-between flex-lg-wrap">
                     <p className="text-dark fs-5 fw-bold mb-0">$7.99 / kg</p>
                     <a href="#" className="btn border border-secondary rounded-pill px-3 text-primary"><i className="fa fa-shopping-bag me-2 text-primary" /> Add to cart</a>
@@ -559,7 +559,7 @@ function Body() {
                 <div className="text-white bg-primary px-3 py-1 rounded position-absolute" style={{top: 10, right: 10}}>Vegetable</div>
                 <div className="p-4 rounded-bottom">
                     <h4>Bell Papper</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                    <p>Fresh Bell Peppers — Crisp, Colorful & Full of Flavor!</p>
                     <div className="d-flex justify-content-between flex-lg-wrap">
                     <p className="text-dark fs-5 fw-bold mb-0">$7.99 / kg</p>
                     <a href="#" className="btn border border-secondary rounded-pill px-3 text-primary"><i className="fa fa-shopping-bag me-2 text-primary" /> Add to cart</a>
@@ -573,7 +573,7 @@ function Body() {
                 <div className="text-white bg-primary px-3 py-1 rounded position-absolute" style={{top: 10, right: 10}}>Vegetable</div>
                 <div className="p-4 rounded-bottom">
                     <h4>Potatoes</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                    <p>Fresh Potatoes — A Kitchen Essential for Every Meal!</p>
                     <div className="d-flex justify-content-between flex-lg-wrap">
                     <p className="text-dark fs-5 fw-bold mb-0">$7.99 / kg</p>
                     <a href="#" className="btn border border-secondary rounded-pill px-3 text-primary"><i className="fa fa-shopping-bag me-2 text-primary" /> Add to cart</a>
@@ -587,7 +587,7 @@ function Body() {
                 <div className="text-white bg-primary px-3 py-1 rounded position-absolute" style={{top: 10, right: 10}}>Vegetable</div>
                 <div className="p-4 rounded-bottom">
                     <h4>Parsely</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                    <p>Fresh Parsley — A Touch of Freshness in Every Dish!</p>
                     <div className="d-flex justify-content-between flex-lg-wrap">
                     <p className="text-dark fs-5 fw-bold mb-0">$7.99 / kg</p>
                     <a href="#" className="btn border border-secondary rounded-pill px-3 text-primary"><i className="fa fa-shopping-bag me-2 text-primary" /> Add to cart</a>
@@ -601,7 +601,7 @@ function Body() {
                 <div className="text-white bg-primary px-3 py-1 rounded position-absolute" style={{top: 10, right: 10}}>Vegetable</div>
                 <div className="p-4 rounded-bottom">
                     <h4>Potatoes</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                    <p>Fresh Potatoes — A Kitchen Essential for Every Meal!</p>
                     <div className="d-flex justify-content-between flex-lg-wrap">
                     <p className="text-dark fs-5 fw-bold mb-0">$7.99 / kg</p>
                     <a href="#" className="btn border border-secondary rounded-pill px-3 text-primary"><i className="fa fa-shopping-bag me-2 text-primary" /> Add to cart</a>
@@ -615,7 +615,7 @@ function Body() {
                 <div className="text-white bg-primary px-3 py-1 rounded position-absolute" style={{top: 10, right: 10}}>Vegetable</div>
                 <div className="p-4 rounded-bottom">
                     <h4>Parsely</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                    <p>Fresh Parsley — A Touch of Freshness in Every Dish!</p>
                     <div className="d-flex justify-content-between flex-lg-wrap">
                     <p className="text-dark fs-5 fw-bold mb-0">$7.99 / kg</p>
                     <a href="#" className="btn border border-secondary rounded-pill px-3 text-primary"><i className="fa fa-shopping-bag me-2 text-primary" /> Add to cart</a>
