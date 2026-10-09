@@ -332,3 +332,24 @@ Infrastructure
 ├── Cloudinary / S3 → product images
 ├── MongoDB Atlas → database
 └── Payment provider → payments
+
+
+
+****************************************************
+
+Backend user payment
+
+
+users
+  ↓
+cart
+  ↓
+cart_items
+  ↓
+checkout
+  ↓
+orders
+  ↓
+order_items
+  ↓
+payments
